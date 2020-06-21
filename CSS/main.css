@@ -1,0 +1,1813 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0 ;
+    font-family: Montserrat, sans-serif;
+    
+    
+    
+}
+.main-page{
+    background: rgb(0, 0, 0, .65) url(../images/plant.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center ;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 9em;
+}
+.green-page{
+    background-color: rgb(13, 175, 13);
+    margin-top: -1.20em;
+    padding-bottom: 2em;
+}
+.contact-page{
+    background-color: black;
+    padding-bottom: 2em;
+    margin-bottom: 0em;
+   
+}
+
+.final{
+    background: rgba(0, 0, 0, 0.65) url(../images/footer1.jpg);
+    background-blend-mode: darken;;
+    color: white;
+    background-size: cover;
+    background-position: center ;
+    margin-top: -.75em;
+    padding-bottom: 10em;
+    
+    
+}
+.logo{
+    color:white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-left: 2em;
+   
+}
+.logo :hover{
+    color: green;
+    background-color: green;
+    border-color: green;
+}
+.menn{
+    color: green;
+    padding-top: -8em;
+    padding-right: .5em;
+    font-weight: bold;
+    
+}
+.inline p{
+    font-size: .8em;
+}
+.inline img{
+    width: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.hide-mobile{
+    display: none;
+}
+.welcome{
+    font-size: .8em;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    padding-top:6em;
+}
+h2{
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.6em;
+    padding-left: 3em;
+    padding-right: 3em;
+    
+}
+.inline{
+    display: inline-flex;
+    padding-top: 0em;
+    padding-right: 2em;
+    text-decoration: none;
+    margin-right: 1em;
+    
+}
+.project{
+    display: block;
+    text-align: center;
+    border-radius: 1%;
+    border-style: solid;
+    width:60%;
+    border-color: white;
+    margin-left: 4em;
+    margin-bottom: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#menu{
+    width: 30px;
+    height: 20px;
+    padding-top: .6em;
+}
+.more{
+    display: block;
+    text-align: center;
+    border-radius: 1%;
+    border-style: solid;
+    width:60%;
+    border-color: white;
+    margin-left: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+h3{
+    padding-top: 4em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: bolder;
+    color: white;
+}
+.myname{
+    text-align: center;
+    font-weight: 500;
+    line-height: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: black;
+}
+hr{
+    background-color: white;
+    width:200px;
+    
+}
+.skill{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 2.5em;
+}
+.html{
+    width: 40px;
+    padding-bottom: .7em;
+}
+.css{
+    width: 30px;
+    padding-bottom: .7em;
+    margin-top: -0.2em;
+    padding-right: .7em;
+}
+.java{
+    width: 35px;
+    padding-bottom: .7em;
+    padding-right: .8em;
+    margin-top: .54em;
+}
+.csharp{
+    width: 30px;
+    margin-top: .54em;
+
+}
+h5{
+    font-size: .9em;
+    margin-left: 2em;
+    font-style: italic;
+}
+.recent{
+    background-color:white;
+}
+.what{
+    font-size: .8em;
+    color: green;
+    text-align: center;
+    padding-top: 2em;
+}
+.web{
+    font-size: .8em;
+    margin-top: -.3em;
+}
+.webde{
+    width: 20px;
+    margin-left: 13.7em;
+    margin-top: -1em;    
+}
+.client{
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 1.5em;
+    font-size: .75em;
+}
+.development{
+    font-size: .8em;
+    color: black;
+    margin-top: -2em;
+    
+}
+.web2{
+    width: 40px;
+    margin-left: 13.7em;
+    margin-top: -2.1em;    
+}
+.tech{
+    padding-left: 2em;
+    padding-right: 2em;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+    font-size: .75em;
+}
+.sub{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 2em;
+}
+.send{
+    font-size: .8em;
+    color: white;
+    margin-top: 0em;
+}
+.form{
+    display: inline-block;
+    padding-top: 3em;
+}
+.form-container{
+    padding:16px;
+    text-align: center;
+}
+input[type=text] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #2e2a2a;
+    text-align: center;
+  }
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+    background: #2e2a2a;
+    border: none;
+    
+
+  }
+  select{
+      color: white;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+    border-color: rgb(49, 209, 49);
+    border: none;
+  }
+  .mit{
+      background-color: green;
+      border-color: green;
+      
+  }
+  .social{
+      margin-top: -0em;
+     
+      
+      
+  }
+  .one{
+      width: 25px;
+  }
+  .two{
+    width: 25px;
+    padding-left: 1em;
+
+  }
+  .three{
+      width: 25px;
+      padding-left: 1em;
+  }
+  .four{
+      width: 25px;
+      padding-left: 1em;
+  }
+  .media{
+      display: inline-flex;
+      justify-content: space-between;
+      text-align: center;
+      margin-left: 3em;
+      margin-top: 10em;
+      list-style: none;
+      margin-top: 1.8em;
+      padding-top: 2em;
+      
+  }
+  .where{
+      font-size: .8em; 
+      padding-top: 1em;
+      text-align: center;
+      
+  }
+  .add{
+      font-size: .75em;
+      text-align: center;
+      padding-left: 3em;
+      padding-right: 3em;
+      padding-top: -2em;
+      padding-bottom: 1em;
+  }
+  .gmail{
+      font-size: .8em;
+      text-align: center;
+      margin-bottom: -2em;
+  }
+  .dot{
+      font-size: .75em;
+      text-align: center;
+      margin-top: 2.7em;
+      padding-left: 3em;
+      padding-right: 3em;
+      padding-bottom: 1em;
+  }
+  .bio{
+      font-size: .8em;
+      text-align: center;
+      padding-left: 3em;
+      padding-right: 3em;
+      font-style: italic;
+      line-height: 2em;
+  }
+  .notify{
+      margin-top: -8em;
+      font-size: .8em;
+      
+      
+  }
+  .subscribe{
+      margin-top: -1.5em;
+      font-size: .75em;
+      padding-left: 3em;
+      padding-right: 3em;
+      color: white;
+      padding-top: 1em;
+      text-align: center;
+  }
+.em{
+    width: 10px;
+}
+.last a{
+    
+    text-align: center;
+    border-radius: 12px;
+    border-style: solid;
+    width:60%;
+    border-color: white;
+    margin-left: 6em;
+}
+.subscribe a{
+text-align: center;
+}
+
+  .news{
+      font-size: .7em;
+      text-align: center;
+  }
+  .sec input[type=text] {
+    margin-top: -12em;  
+  }
+  .cap{
+    background-color:green;
+    width: calc(100 - 1em);
+    border-radius: 2px;
+    color: black;
+    padding: .5em;
+    text-decoration: none;
+    margin: 3% auto 7%;
+    margin-left: 11em;
+    font-weight: 300;
+    font-size: .7em;
+  }
+  .copy{
+      font-size: .7em;
+      text-align: center;
+      color: white;
+      margin-bottom: -2em;
+  }
+  nav ul{
+    position: fixed;
+    width: 60%;
+    top: 0 ;
+    right: 0;
+    text-align: left;
+    background-color: rgb(18, 18, 19);
+    z-index: 7;
+    height: 100%;
+    padding-top: 5em;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav ul li a{
+    color: green;
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    padding: 1.4em 2em;
+    
+}
+.exit-btn{
+    margin-bottom: 1em;
+    margin-top: -1.3em;
+    text-align: right;
+    padding: 0 1.4em;
+}
+.exit-btn img{
+    width: 15px;
+    cursor: pointer;
+}
+.navigation{
+    margin-top: -2.3em;
+}
+nav ul li a:hover{
+    background-color: rgb(11, 167, 11);
+    width: 30%;
+    
+}
+.content1{
+    animation: fadeIn 4s forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.contact-page{
+    animation: fadeIn 4s forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: -1;
+        transform: translateY(-2em);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+  @media only screen and (min-width: 320px){
+      .welcome{
+          font-size: .6em;
+      }
+      h2{
+          font-size: 1.1em;
+          padding-left: 2em;
+          padding-right: 2em;
+      }
+      
+      .project{
+          width: 50%;
+          font-size:.7em;
+          margin-left:6.5em;
+      }
+      .more{
+        width: 50%;
+        font-size:.7em;
+        margin-left:6.5em;
+      }
+      h3{
+          font-size: .9em;
+      }
+      .myname{
+          font-size: .89em;
+      }
+      .html{
+          width: 55px;
+      }
+      .skill{
+          margin-left: 0.3em;
+      }
+      .css{
+        width: 40px;
+        margin-left: .6em; 
+      }
+      .java{
+        width: 37px;
+        margin-left: .6em; 
+      }
+      .csharp{
+        width: 40px;
+        margin-left: .6em; 
+      }
+      .what{
+          font-size: .9em;
+      }
+      .web{
+          font-size: .9em;
+          margin-bottom: -.2em;
+      }
+      .webde{
+        width: 15px;
+        margin-left: 9.6em;
+       padding-top: -1em;
+  }
+  .client{
+      font-size: .8em;
+  }
+  .development{
+      font-size: .9em;
+      margin-bottom: -.7em;
+  }
+  .web2{
+    width: 15px;
+    margin-left: 9.6em;
+   padding-top: -1em; 
+  }
+  .tech{
+      font-size: .8em;
+  }
+  .sub{
+      font-size: .7em;
+  }
+  .send{
+      font-size: .6em;
+  }
+  .where{
+      font-size: .7em;
+  }
+  .add{
+      font-size: .6em;
+  }
+  .gmail{
+      font-size: .7em;
+  }
+  .dot{
+      font-size: .6em;
+  }
+  .bio{
+      font-size: .7em;
+  }
+  .notify{
+      font-size: .7em;
+  }
+  .subscribe{
+      font-size: .6em;
+  }
+  .cap{
+      margin-left: 10em;
+  }
+  .media{
+      margin-left: 3em;
+  }
+  .menn{
+    font-size: .7em;
+}
+.logo{
+    font-size: .7em;
+}
+.one{
+    width: 20px;
+}
+.two{
+    width: 20px;
+}
+.three{
+    width: 20px;
+}
+.four{
+    width: 20px;
+}
+}
+  @media only screen and (min-width: 360px){
+      h2{
+          padding-left: 1em;
+          padding-right: 1em;
+          line-height: 1.8em;
+          font-size: 1.3em;
+      }
+      .project{
+        display: block;
+        text-align: center;
+        border-radius: 1%;
+        border-style: solid;
+        width:50%;
+        border-color: white;
+        margin-left: 6em;
+        margin-bottom: .5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: .8em;
+      }
+      .more{
+        display: block;
+        text-align: center;
+        border-radius: 1%;
+        border-style: solid;
+        width:50%;
+        border-color: white;
+        margin-left: 6em;
+        margin-bottom: .5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: .8em;
+      }
+      .welcome{
+          font-size: .7em;
+      }
+      .logo{
+          font-size: .99em;
+      }
+      h3{
+          font-size: .99em;
+      }
+      .myname{
+          font-size: .96em;
+      }
+      .html{
+          width: 50px;
+      }
+      .css{
+          width: 40px;
+      }
+      .java{
+          width: 33px;
+      }
+      .csharp{
+          width: 35px;
+      }
+      .skill img{
+          margin-left: .8em;
+      }
+      .what{
+          font-size: .9em;
+      }
+      .web{
+          font-size: .9em;
+          margin-bottom: -.2em;
+      }
+      .webde{
+        width: 20px;
+        margin-left: 10.6em;
+       padding-top: -1em;
+        
+      }
+      .client{
+          font-size: .85em;
+      }
+      .web2{
+        width: 20px;
+        margin-left: 10.6em;
+       
+      }
+      .development{
+          font-size: .9em;
+          margin-bottom: -.7em;
+      }
+      .tech{
+        font-size: .85em;
+        
+      }
+      .sub{
+          font-size: .97em;
+      }
+      .notify{
+          margin-bottom: -.9em;
+      }
+      .cap{
+          margin-left: 13em;
+      }
+      .media{
+          margin-left: 4.8em;
+      }
+      .dot{
+          font-size: .7em;
+      }
+      .add{
+        font-size: .7em;
+    }
+    
+      
+  }
+  @media only screen and (min-width: 411px){
+      .project{
+          margin-left: 7em;
+      }
+      .more{
+        margin-left: 7em; 
+      }
+      h3{
+          font-size: 1em;
+      }
+      .skill{
+          margin-left: 2.1em;
+      }
+      .what{
+        font-size: .9em;
+    }
+    .web{
+        font-size: .9em;
+        margin-bottom: -.2em;
+    }
+    .webde{
+      width: 20px;
+      margin-left: 12em;
+    
+      
+    }
+    .client{
+        font-size: .85em;
+    }
+    .web2{
+      width: 20px;
+      margin-left: 12em;
+     
+    }
+    .development{
+        font-size: .9em;
+        margin-bottom: -.7em;
+    }
+    .tech{
+      font-size: .85em;
+      
+    }
+      .cap{
+        margin-left: 13.4em;
+    }
+    .media{
+        margin-left: 5.2em;
+    }
+    .notify{
+        margin-bottom: 0em;
+  }
+  .subscribe{
+      padding-top: .6em;
+  }
+ 
+}
+@media only screen and (min-width: 429px){
+    .project{
+        margin-left: 8.4em;
+    }
+    .more{
+      margin-left: 8.4em; 
+    }
+    h3{
+        font-size: 1em;
+    }
+    .skill{
+        margin-left: 4em;
+    }
+    .cap{
+      margin-left: 15.3em;
+  }
+  .media{
+      margin-left:7em;
+  }
+  .notify{
+      margin-bottom: 0em;
+}
+.subscribe{
+    padding-top: .6em;
+}
+.webde{
+    margin-left: 13em;
+}
+.web2{
+    margin-left: 13em;
+}
+
+}
+@media only screen and (min-width: 483px){
+    .project{
+        margin-left: 8.4em;
+    }
+    .more{
+      margin-left: 8.4em; 
+    }
+    h3{
+        font-size: 1em;
+    }
+    .skill{
+        margin-left: 5em;
+    }
+    .cap{
+      margin-left: 17.5em;
+  }
+  .media{
+      margin-left:9em;
+  }
+  .notify{
+      margin-bottom: 0em;
+}
+.subscribe{
+    padding-top: .6em;
+}
+.webde{
+    margin-left: 14em;
+}
+.web2{
+    margin-left: 14em;
+}
+.what{
+    font-size: .9em;
+}
+.web{
+    font-size: .9em;
+    margin-bottom: -.2em;
+}
+
+.client{
+    font-size: .85em;
+}
+
+.development{
+    font-size: .9em;
+  
+}
+.tech{
+  font-size: .85em;
+  
+}
+
+}
+
+@media only screen and (min-width: 523px){
+    .project{
+        margin-left: 8.4em;
+    }
+    .more{
+      margin-left: 8.4em; 
+    }
+    h3{
+        font-size: 1em;
+    }
+    .skill{
+        margin-left: 6.8em;
+    }
+    .cap{
+      margin-left: 16.5em;
+  }
+  .media{
+      margin-left:10em;
+  }
+  .notify{
+      margin-bottom: 0em;
+}
+.subscribe{
+    padding-top: .6em;
+}
+.webde{
+    margin-left: 16em;
+}
+.web2{
+    margin-left: 16em;
+}
+
+}
+@media only screen and (min-width: 537px){
+    .project{
+        margin-left: 8.4em;
+    }
+    .more{
+      margin-left: 8.4em; 
+    }
+    h3{
+        font-size: 1em;
+    }
+    .skill{
+        margin-left: 6.8em;
+    }
+    .cap{
+      margin-left: 19.5em;
+  }
+  .media{
+      margin-left:10em;
+  }
+  .notify{
+      margin-bottom: 0em;
+}
+.subscribe{
+    padding-top: .6em;
+}
+.webde{
+    margin-left: 16em;
+}
+.web2{
+    margin-left: 16em;
+}
+
+}
+@media only screen and (min-width: 588px){
+    .project{
+        margin-left: 12em;
+    }
+    .more{
+        margin-left: 12em;
+    }
+    .skill{
+        margin-left: 7em;
+    }
+    .html{
+        width: 60px;
+    }
+    .css{
+        width: 45px;
+    }
+    .java{
+        width: 45px;
+    }
+    .csharp{
+        width: 50px;
+    }
+    .webde{
+        margin-left: 17.5em;
+    }
+    .web2{
+        margin-left: 17.5em;
+    }
+    .send{
+        font-size:.8em
+    }
+    .where{
+        font-size: 1em;
+    }
+    .add{
+        font-size: .8em;
+    }
+    .gmail{
+        font-size: 1em;
+    }
+    .dot{
+        font-size:.8em
+    }
+    .bio{
+        font-size: .8em;
+    }
+    .notify{
+        font-size: 1em;
+    }
+    .subscribe{
+        font-size: .8em
+    }
+    .cap{
+        font-size: .8em;
+        margin-left: 19em;
+    }
+    .media{
+        margin-left: 12em;
+    }
+    .inline{
+        margin-right: 3em;
+    }
+}
+@media only screen and (min-width: 657px){
+    .logo{
+        font-size: 1.1em;
+    }
+    h2{
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-bottom: 3em;
+    }
+    .webde{
+        margin-left: 19.8em;
+    }
+    .web{
+        margin-bottom: -3em;
+    }
+    .web2{
+        margin-left: 19.8em;
+    }
+    .media{
+        margin-left: 14em;
+    }
+    .cap{
+        margin-left: 21em;
+    }
+    .copy{
+        font-size: .8em;
+    }
+    .inline{
+        margin-right: 3em;
+    }
+}
+@media only screen and (min-width:747px){
+h2{
+    font-size: 1.4em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+h3{
+    font-size: 1.1em;
+}
+.myname{
+    font-size: .9em;
+}
+.skill{
+    margin-left: 10em;
+}
+.webde{
+    margin-left: 22.7em;
+}
+.web2{
+    margin-left: 22.7em;
+}
+.client{
+    font-size: .9em;
+}
+.tech{
+    font-size: .9em;
+}
+.subscribe{
+    margin-left: 3em;
+}
+.gmail{
+    margin-bottom: -4em;
+}
+.cap{
+    margin-left: 25em;
+}
+.media{
+    margin-left: 16em;
+}
+.inline{
+    margin-right: 3em;
+}
+.one{
+    width: 30px;
+}
+.two{
+    width: 30px;
+}
+.three{
+    width: 30px;
+}
+.four{
+    width: 30px;
+}
+}
+
+@media only screen and (min-width:780px){
+    h2{
+        font-size: 1.6em;
+    }
+    .project{
+        margin-left: 13em;
+    }
+    .more{
+        margin-left: 13em;
+    }
+    .skill{
+        margin-left: 11.7em;
+    
+    }
+    .webde{
+        margin-left: 23.7em;
+    }
+    .web2{
+        margin-left: 23.7em;
+    }
+    .subscribe{
+        margin-left: 3em;
+    }
+    .cap{
+        margin-left: 26em;
+    }
+    .media{
+        margin-left: 17em;
+    }
+    .inline{
+        margin-right: 3em;
+    }
+}
+@media only screen and (min-width:829px){
+.inline{
+    width: 30px;
+    margin-left: -2.7em;
+}
+.project{
+    margin-left: 14em;
+}
+.more{
+    margin-left: 14em;
+}
+.welcome{
+    font-size: .8em;
+}
+h2{
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: 1.8em;
+}
+.webde{
+    margin-left: 25em;
+}
+.web2{
+    margin-left: 25em;
+}
+.cap{
+    margin-left: 28em;
+}
+.media{
+    margin-left: 18.7em;
+}
+}
+@media only screen and (min-width: 892px){
+    .project{
+        margin-left:10em;
+    }
+    .more{
+      margin-left: 8.4em; 
+    }
+    h3{
+        font-size: 1em;
+    }
+    .skill{
+        margin-left: 17em;
+    }
+    .cap{
+      margin-left: 16.5em;
+  }
+  .media{
+      margin-left:10em;
+  }
+  .notify{
+      margin-bottom: 0em;
+}
+.subscribe{
+    padding-top: .6em;
+}
+.webde{
+    margin-left: 20em;
+}
+.web2{
+    margin-left: 23em;
+}
+
+}
+@media only screen and (min-width:897px){
+    h2{
+        font-size: 2em;
+    }
+    .project{
+        margin-left: 15em;
+        padding-top: 1em;
+    }
+    .more{
+        margin-left: 15em;
+    }
+    .webde{
+        margin-left: 27em;
+    }
+    .web2{
+        margin-left: 27em;
+    }
+    .subscribe{
+        margin-left: 5.6em;
+    }
+    .cap{
+        margin-left: 31em;
+    }
+    .media{
+        margin-left: 21em;
+    }
+    .inline{
+        margin-right: 3em;
+    }
+}
+@media only screen and (min-width:933px){
+    .webde{
+        margin-left: 28em;
+    }
+    .web2{
+        margin-left: 28em;
+    }
+    .subscribe{
+        margin-left: 6em;
+    }
+    .cap{
+        margin-left: 32em;
+    }
+    .media{
+        margin-left: 22em;
+    }
+   
+      .contact-page{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          
+      }  
+      .where{
+          margin-top: -35em;
+      }
+    .final{
+        padding-bottom: 18em;
+    }
+    .notify{
+        margin-top: -16em;
+    }
+    .subscribe{
+        color: white;
+        margin-left: 2em;
+    }
+    .cap{
+        margin-left: 16em;
+    }
+    .media{
+        margin-top: 11em
+      
+
+    }
+    .skill{
+        margin-left: 15em;
+    }
+    .copy{
+        color: white;
+        margin-left: 28em;
+        margin-top: 4em;
+        
+        
+    }
+    .sub{
+        margin-left: 25em;
+    }
+    .send{
+        padding-top: 4em;
+    }
+    .social{
+        padding-bottom: 8em;
+    }
+    .one{
+        width: 30px;
+    }
+    .two{
+        width: 30px;
+    }
+    .three{
+        width:30px;
+    }
+    .four{
+        width: 30px;
+    }
+    .inline{
+        margin-right: 3em;
+    }
+}
+@media only screen and (min-width:1005px){
+.skill{
+    margin-left: 18em;
+}
+.html{
+    width: 75px;
+}
+.myname{
+    font-size: 1.090em;
+}
+.css{
+    width: 60px;
+}
+.java{
+    width: 60px;
+}
+.csharp{
+    width: 55px;
+}
+.webde{
+    margin-left: 30.4em;
+}
+.web2{
+    margin-left: 30.4em;
+}
+h3{
+  font-size: 1.2em;  
+}
+h2{
+    font-size: 2.4em;
+    text-align: left;
+    padding-left: 1em;
+    padding-right:7em;
+}
+.project{
+    margin-left: 30em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    width: 350px;
+}
+.more{
+    margin-left: 30em;
+    padding-top: 1em;
+    padding-bottom: 1.3em;
+    width: 350px;
+}
+.webde{
+    margin-left: 30.3em;
+}
+.web2{
+margin-left: 30.4em;
+
+}
+.web{
+    text-align: center;
+    margin-left: 5em;
+}
+.project{
+    margin-left:10em;
+}
+.more{
+    margin-left: 10em;
+}
+.gmail{
+    margin-left:7em;
+}
+.dot{
+    margin-top: 1.4em;
+}
+
+.cap{
+    margin-left: 19em;
+}
+.welcome{
+    padding-top: 10em;
+}
+.inline{
+    margin-right: 3em;
+}
+.what{
+    font-size: 1.1em;
+}
+.web{
+    font-size: 1.1em;
+}
+.tech{
+    font-size: 1.095em;
+}
+.client{
+    font-size: 1.095em; 
+}
+}
+@media only screen and (min-width:1023px){
+    .webde{
+        margin-left: 31em;
+    }
+    .web2{
+    margin-left: 30.4em;
+    
+}
+
+h2{
+    font-size: 2.5em;
+    text-align: left;
+    padding-left: 1em;
+    padding-right:7em;
+}
+.project{
+    margin-left: 30em;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    width: 350px;
+}
+.more{
+    margin-left: 30em;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    width: 350px;
+}
+.web{
+    text-align: center;
+    margin-left: 5em;
+}
+.web2{
+    margin-left: 31em;
+}
+.project{
+    margin-left: 10em;
+}
+.more{
+    margin-left:10em;
+}
+.gmail{
+    margin-left:7em;
+    font-size: 1.2em;
+}
+.dot{
+    margin-top: 1.4em;
+}
+.cap{
+    margin-left: 19em;
+}
+.welcome{
+    padding-top: 10em;
+}
+.inline{
+    margin-right: 3em;
+}
+
+}
+
+@media only screen and (min-width:1206px){
+    .project{
+        margin-left: 10em;
+        padding-top: 1.4em;
+        padding-bottom: 1.4em;
+        width: 350px;
+    }
+    .more{
+        margin-left:10em;
+        padding-top: 1.4em;
+        padding-bottom: 1.4em;
+        width: 350px;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    .myname{
+        font-size: 1.1em;
+    }
+    .what{
+        font-size: 1.2em;
+    }
+    .web{
+        font-size: 1.2em;
+    }
+    .webde{
+        margin-left: 36.7em;
+    }
+    .web2{
+        margin-left: 36.7em;
+    }
+    .sub{
+        margin-left: 28em;
+        
+    }
+    .gmail{
+        margin-left:7em;
+    }
+    .dot{
+        margin-top: 1.4em;
+    }
+    .media{
+        margin-left: 30em;
+    }
+    .copy{
+        margin-left: 36em;
+    }
+    .cap{
+        margin-left: 19em;
+    }
+    .welcome{
+        padding-top: 10em;
+    }
+    .inline{
+        margin-right: 3em;
+    }
+    .skill{
+        margin-left: 24em;
+    }
+}
+@media only screen and (min-width: 1239px){
+    .project{
+        margin-left: 10em;
+        padding-top: 1.4em;
+        padding-bottom: 1.4em;
+        width: 350px;
+    }
+    .more{
+        margin-left:10em;
+        padding-top: 1.4em;
+        padding-bottom: 1.4em;
+        width: 350px;
+    }
+    h3{
+        font-size: 1.2em;
+    }
+    .myname{
+        font-size: 1.1em;
+    }
+    .what{
+        font-size: 1.2em;
+    }
+    .web{
+        font-size: 1.2em;
+    }
+    .welcome{
+        padding-top: 10em;
+    }
+    .webde{
+        margin-left: 38em;
+    }
+    .web2{
+        margin-left: 38em;
+    }
+    .skill{
+        margin-left: 23em;
+    }
+    .media{
+        margin-left: 29em;
+    }
+    .copy{
+        margin-left: 39em;
+    }
+    .inline{
+        margin-right: 3em;
+    }
+}
+@media only screen and (min-width: 1334px){
+    .webde{
+        margin-left: 41em;
+    }
+    .web2{
+        margin-left: 41em;
+    }
+    .skill{ 
+        margin-left: 25em;
+    }
+    .media{
+        margin-left:35em;
+    }
+    .copy{
+        margin-left: 43em;
+    }
+.cap{
+    margin-left: 23em;
+}
+.client{
+    text-align: center;
+}
+.tech{
+text-align: center;
+}
+.inline img{
+    width: 50px;
+    
+    
+}
+.inline img:hover{
+    background-color: green;
+}
+.inline{
+    margin-right: 3em;
+} 
+}
+
+@media only screen and (min-width: 1506px){
+    h2{
+        font-size: 3em;
+        padding-right: 13em;
+    }
+    .project{
+        font-size: 1.3em;
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+        width: 400px;
+    }
+    .project :hover{
+        background-color: green;
+        color: green;
+    }
+    .more{
+        font-size: 1.3em;
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+        width: 400px;
+    }
+    .webde{
+        margin-left: 45.4em;
+        margin-top: -1.5em;
+    }
+    .web2{
+        margin-left: 45.4em;
+    }
+    .skill{
+        margin-left: 30em;
+        
+    }
+    h5{
+        font-size: .9em;
+    }
+    .media{
+        margin-left:38em;
+        margin-top: 15em;
+        margin-bottom: -2em;
+        
+    }
+    .copy{
+        margin-left: 47em;
+    }
+.cap{
+    margin-left: 25em;
+}
+.inline{
+    margin-right: 3em;
+}
+.green-page{
+    margin-top: -1.8em;
+}
+h3{
+    font-size: 1.6em;
+}
+.myname{
+    font-size: 1.2em;
+}
+.what{
+    font-size: 1.5em;
+}
+.web{
+    font-size: 1.5em;
+    margin-left: 11.5em;
+    margin-top: -.9em;
+}
+.client{
+    font-size: 1.2em;
+}
+.tech{
+    font-size: 1.3em;
+}
+.development{
+    font-size: 1.5em;
+}
+.sub{
+    font-size: 1.3em;
+    margin-left: 18em;
+}
+.send{
+    margin-top: 5em;
+}
+.where{
+    font-size: 1.2em;
+}
+.final{
+    margin-top: 4em;
+    
+}
+
+.add{
+    font-size: .8em;
+}
+.gmail{
+    font-size: 1.2em;
+}
+.dot{
+    font-size: .8em;
+}
+.bio{
+    font-size: .9em;
+}
+.notify{
+    font-size: 1.2em;
+}
+.subscribe{
+    font-size: .9em;
+}
+.send{
+    font-size: .8em;
+}
+input[type=submit]{
+    font-size: 1.1em;
+}
+.social{
+    padding-bottom: -3em;
+}
+}
+@media only screen and (min-width: 1600px){
+    h2{
+        font-size: 3em;
+        padding-right: 13em;
+    }
+    .project{
+        font-size: 1.3em;
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+        width: 400px;
+    }
+    .project :hover{
+        background-color: green;
+        color: green;
+    }
+    .more{
+        font-size: 1.3em;
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+        width: 400px;
+    }
+    .webde{
+        margin-left: 45.4em;
+        margin-top: -1.5em;
+    }
+    .web2{
+        margin-left: 45.4em;
+    }
+    .skill{
+        margin-left: 30em;
+        
+    }
+    h5{
+        font-size: .9em;
+    }
+    .media{
+        margin-left:38em;
+        margin-top: 15em;
+        margin-bottom: -2em;
+        
+    }
+    .copy{
+        margin-left: 47em;
+    }
+.cap{
+    margin-left: 25em;
+}
+.inline{
+    margin-right: 3em;
+}
+.green-page{
+    margin-top: -1.8em;
+}
+h3{
+    font-size: 1.6em;
+}
+.myname{
+    font-size: 1.2em;
+}
+.what{
+    font-size: 1.5em;
+}
+.web{
+    font-size: 1.5em;
+    margin-left: 11.5em;
+    margin-top: -.9em;
+}
+.client{
+    font-size: 1.2em;
+}
+.tech{
+    font-size: 1.2em;
+}
+.development{
+    font-size: 1.5em;
+}
+.sub{
+    font-size: 1.2em;
+    margin-left: 18em;
+}
+.send{
+    margin-top: 5em;
+}
+.where{
+    font-size: 1.2em;
+}
+.final{
+    margin-top: 4em;
+    
+}
+
+.add{
+    font-size: .8em;
+}
+.gmail{
+    font-size: 1.2em;
+}
+.dot{
+    font-size: .8em;
+}
+.bio{
+    font-size: 1em;
+}
+.notify{
+    font-size: 1.2em;
+}
+.subscribe{
+    font-size: .8em;
+}
+.send{
+    font-size: .8em;
+}
+input[type=submit]{
+    font-size: 1.1em;
+}
+.social{
+    padding-bottom: -3em;
+}
+}
+
+
